@@ -193,6 +193,8 @@ public class MainActivity extends AppCompatActivity {
         itemTouchHelper.attachToRecyclerView(recyclerView);
     }
     //Add delete button on Swipe
+    
+
     /*SwipeHelper swipeHelper = new SwipeHelper(this, recyclerView) {
             @Override
             public void instantiateUnderlayButton(RecyclerView.ViewHolder viewHolder, List<UnderlayButton> underlayButtons) {
